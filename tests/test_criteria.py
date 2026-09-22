@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from laya.common import render_criterion, render_options  # noqa: E402
 
-PASS, FAIL = [], []
+PASS, FAIL = ['1'], ['2']
 
 
 def check(name, got, want):
